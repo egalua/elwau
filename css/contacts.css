@@ -1,0 +1,25 @@
+.copyright{
+	padding-left: 27px;
+	padding-top: 18px;
+	font-size: 0;
+	font-family: Arial, sans-serif;
+}
+.copyright__box{
+	line-height: 13px;
+}
+.copyright__box span{
+	font-size: 13px;
+	color: #747474;
+}
+.copyright__box a, .copyright__box a:visited, .copyright__box a:active{
+	outline: none;
+	border: none;
+	font-size: 13px;
+	color: #747474;
+}
+.copyright__site span, .copyright__site a, .copyright__site a:visited, .copyright__site a:active{
+	color: #5e5e5e;
+}
+.copyright__email a, .copyright__phones a{
+	text-decoration: none;
+}

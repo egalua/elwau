@@ -1,0 +1,77 @@
+header, footer, aside, section, nav{
+	display: block;
+}
+html,body{
+	height: 100%;
+	padding:0;
+	margin: 0;
+	background: none;
+}
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -204px; /*для footer*/
+}
+.wrapper:after{ /*псевдоэлемент для создания места под footer*/
+	content: "";
+	display: block;
+	height: 204px; /*отступ под footer*/
+}
+/* т.к. footer элемент сетки, то его размеры определяются в % */
+/* width = (960/1024)*100% */
+footer, header, .content{
+	margin: auto;
+	width: 93.75%;
+}
+footer{
+	min-height: 132px;
+/*
+	min-height: 132px;
+	max-height: 197px;
+*/
+}
+.row{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: relative; /* для установки фона используя координаты строки*/
+}
+.row:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.col{
+	float: left;
+}
+.col-700xx960{
+	width: 72.916666666666666666666666666667%;
+}
+.col-260xx960{
+	width: 27.083333333333333333333333333333%;
+}
+.col-305xx960{
+	width: 31.770833333333333333333333333333%;
+}
+.col-395xx960{
+	width: 41.145833333333333333333333333333%;
+}
+.col-960xx960{
+	width: 100%;
+}
+.col-350xx960{
+	width: 36.458333333333333333333333333333%;
+}
+
+
+/* ---- заглушка для адаптивного дизайна ---- */
+footer, header, .content{
+	min-width: 960px;
+}
+
+/*mobile first: стили по умолчанию для экранов меньших 320px*/
+@media screen and (min-width: 768px){
+	footer,header,.content{
+		max-width: 960px;
+	}
+}

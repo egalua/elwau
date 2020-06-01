@@ -1,0 +1,103 @@
+.top-contacts{
+	height: 126px;
+}
+/*
+.top-contacts:before{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: bottom;
+}
+*/
+.top-contacts__container{
+	display: inline-block;
+	margin-top: 45px;
+	font-family: Arial, sans-serif;
+	/*vertical-align: bottom;*/
+}
+.top-contacts__phone-icon{
+	display: inline-block;
+	background: 50% 50% url("../ico/phone-icon.png") no-repeat;
+	width: 14px;
+	height: 18px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.top-contacts__phones{
+	font-size: 0;
+}
+.top-contacts__phones:before{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	font-size: 0;
+}
+.top-contacts__phone-link{
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.top-contacts__separator{
+	font-size: 18px;
+	vertical-align: middle;
+	color: #4f4f4f;
+}
+.top-contacts__phone-code{
+	color: #4f4f4f;
+}
+.top-contacts__phone-number{
+	color: #da501a;
+}
+.top-contacts__net-formats{
+	font-size: 0;
+	line-height: 28px;
+}
+.top-contacts__net-formats:before{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: bottom;
+	font-size: 0;
+}
+.top-contacts__email-link{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 120%;
+	vertical-align: bottom;
+}
+
+.top-contacts__email-icon{
+	display: inline-block;
+	width: 16px;
+	height: 12px;
+	vertical-align: bottom;
+	background: 50% 50% url("../ico/email-icon.png") no-repeat;
+	margin-right: 5px;
+}
+.top-contacts__email-send{
+	display: inline-block;
+	vertical-align: bottom;
+	text-decoration: underline;
+	color: #4f4f4f;
+}
+
+.top-contacts__icq-link{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 120%;
+	vertical-align: bottom;
+	color: #4f4f4f;
+}
+.top-contacts__icq-icon{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: bottom;
+	background: 50% 50% url("../ico/icq-icon.png") no-repeat;
+	margin-left: 20px;
+	margin-right: 5px;
+}

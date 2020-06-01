@@ -1,0 +1,61 @@
+.search{
+	height: 48px;
+	white-space: nowrap;
+	display: inline-block; /* чтобы определяла свою ширину по ширине контента */
+}
+.search:before{ /* псевдоэлемент для выравнивания form по вертикали */
+	content: "";
+	display: inline-block;
+	height: 100%;
+	font-size: 0;
+	vertical-align: middle;
+}
+.search__form{
+	display: inline-block; /* чтобы определяла свою ширину по ширине контента */
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-size: 0;
+	height: 24px;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+.search__form_background{
+	background: white;
+}
+.search__input-text{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	height: 100%;
+	width: 208px;
+	text-indent: 10px;
+	color: #4f4f4f;
+	line-height: 24px;
+	vertical-align: middle;
+}
+.search__submit{
+	background: lime;
+	border: none;
+	padding: 0;
+	margin: 0;
+	width: 24px;
+	height: 100%;
+	font-size: 0;
+	display: inline-block;
+	vertical-align: bottom;
+	cursor: pointer;
+	outline: none;
+	
+}
+.search__submit_background{
+	background: 50% 50% url('../ico/search.png') no-repeat;
+	
+}
+.search__input-text_background{
+	background: transparent;
+}

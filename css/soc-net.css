@@ -1,0 +1,19 @@
+.social-networks{
+	padding-top: 18px;
+	font-size: 0;
+}
+.social-networks___stub-box{
+	
+}
+.social-networks__stub-link, .social-networks__stub-link:visited, .social-networks__stub-link:active{
+	outline: none;
+	border: none;
+	display: inline-block;
+	text-decoration: none;
+	width: 88px;
+	height: 31px;
+	margin-right: 14px;
+}
+.social-networks__stub-link{
+	background: 50% 50% url("../ico/stub.png") no-repeat;
+}

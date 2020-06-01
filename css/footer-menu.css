@@ -1,0 +1,23 @@
+.footer-menu{
+	font-size: 0;
+}
+.footer-menu__box{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	list-style-type: 0;
+	height: 43px;
+}
+.footer-menu__item{
+	display: inline-block;
+	height: 100%;
+	line-height: 43px;
+	margin-left: 27px;
+}
+.footer-menu__item-link, .footer-menu__item-link:visited, .footer-menu__item-link:active{
+	outline: none;
+	border: none;
+	font-size: 13px;
+	vertical-align: middle;
+	color: #747474;
+}

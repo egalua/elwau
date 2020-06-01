@@ -1,0 +1,84 @@
+.sale{
+	padding-right: 30px;
+	padding-top: 50px;
+/*	height: 275px;*/
+	font-size: 0;
+	font-family: Arial, sans-serif;
+}
+.sale__caption{
+	line-height: 32px;
+}
+.sale__caption-link{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sale__box{
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	word-spacing: 20px;
+	width: 100%;
+	font-size: 20px;
+}
+.sale__card{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 205px;
+	/*margin-right: 20px;*/
+	
+}
+.sale__link{
+	display: block;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	word-spacing: normal;
+}
+.sale__img{
+	display: block;
+	width: 100%;
+	background: white;
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+.sale__img > img{
+	display: block;
+	width: 100%;
+	outline: none;
+	border: none;
+}
+.sale__product-name{
+	font-size: 14px;
+	color: #e27d55;
+	text-decoration: underline;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+.sale__price{
+	width: 108px;
+	height: 34px;
+	position: absolute;
+	top: 115px;
+	right: 0;
+	background: #4f4f4f;
+	color: #f3f2f0;
+	border-radius: 6px;
+	text-align: center;
+	line-height: 34px;
+	font-size: 16px;
+}
+.sale__price-value{
+	font-size: 24px;
+	vertical-align: middle;
+}
+.sale__price-currency{
+	font-size: 18px;
+	vertical-align: middle;
+}

@@ -1,0 +1,87 @@
+.reviews{
+	padding-top: 36px;
+	padding-right: 30px;
+	font-size: 0;
+	font-family: Arial, sans-serif;
+}
+.reviews__caption{
+	font-size: 18px;
+	color: #4f4f4f;
+}
+.reviews__box{
+	padding: 0;
+	margin: 6px 0 0;
+	list-style-type: none;
+}
+.reviews__news:nth-child(n+2){
+	border-top: 1px solid white;
+	border-bottom: 1px solid #efefef;
+}
+.reviews__news:first-child{
+	border-bottom: 1px solid #efefef;
+}
+.reviews__news:last-child{
+	border-top: 1px solid white;
+	border-bottom: none;
+}
+.reviews__news{
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	/*padding-bottom: 20px;*/
+}
+.reviews__news:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.reviews__img-box{
+	display: block;
+	width:182px; /* = 162px + 20px (width_img + padding_img)*/
+	height: 141px; /* = 121px + 20px (height_img + padding_img)*/
+	margin-bottom: -141px;
+	position: relative;
+	z-index: 0;
+}
+.reviews__img-box:before{
+	content: '';
+	position: absolute;
+	width: 162px;
+	height: 121px;
+	background: white;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+/*
+.reviews__img-box:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
+*/
+.reviews__img{
+	width: 162px;
+	height: 121px;
+	padding-right:20px;
+	padding-bottom: 20px;
+	display: inline-block;
+	float: left;
+}
+.reviews__news-title{
+	padding: 0;
+	margin: 0;
+}
+.reviews__news-title-link, .reviews__news-title-link:visited, .reviews__news-title-link:active, .reviews__news-title-link:hover{
+	outline: none;
+	border: none;
+	font-size: 13px;
+	font-weight: normal;
+	color: #e27d55;
+}
+.reviews__news-content{
+	font-size: 11px;
+	color: #4f4f4f;
+	margin: 10px 0;
+}

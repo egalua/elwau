@@ -1,0 +1,14 @@
+.author{
+	padding-top: 18px;
+	padding-right: 30px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	text-align: right;
+}
+.author__work, .author__name{
+	color: #747474;
+}
+.author__name{
+	text-decoration: underline;
+}
+

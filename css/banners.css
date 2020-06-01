@@ -1,0 +1,8 @@
+.banners{
+	padding: 0 20px 0 30px;
+}
+.banners__box{
+	margin: 0 0 28px;
+	min-height: 248px;
+	background: #bdbdbd;
+}

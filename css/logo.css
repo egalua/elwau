@@ -1,0 +1,18 @@
+.logo{
+	height: 126px;
+	font-size: 0;
+	line-height: 126px;
+}
+.logo__link{
+	font-size: 16px;
+	display: inline-block;
+	height: 80px;
+	width: 226px;
+	vertical-align: middle;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+.logo__link_background{
+	background: 50% 50% url("../ico/logo.png") no-repeat;
+}

@@ -1,0 +1,33 @@
+.news{
+	padding: 0 20px 40px 30px;
+	font-family: Arial, sans-serif;
+}
+.hot-news{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.hot-news__article{
+	display: block;
+	margin-bottom: 26px;
+}
+.hot-news__article-link{
+	display: block;
+	text-decoration: none;
+}
+.hot-news__date{
+	color: #898989;
+	font-size: 12px;
+}
+.hot-news__title{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-weight: normal;
+	color: #4f4f4f;
+}
+.hot-news__content{
+	margin: 0;
+	font-size: 13px;
+	color: #7d7d7d;
+}

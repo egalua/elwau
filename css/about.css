@@ -1,0 +1,30 @@
+.about{
+	padding-right: 30px;
+	padding-top: 24px;
+	font-size: 0;
+	font-family: Arial, sans-serif;
+}
+.about-box{
+}
+.about-box__title{
+	display: block;
+	margin: 0;
+	padding: 0 0 17px;
+	font-size: 17px;
+	color: #4f4f4f;
+	font-weight: bold;
+}
+.about-box__content{
+}
+.about-box__text{
+	font-size: 11px;
+	color: #4f4f4f;
+	line-height: 180%;
+	margin: 0;
+	padding: 0;
+}
+.about-box__continuation-link, .about-box__continuation-link:active, .about-box__continuation-link:visited{
+	outline: none;
+	border: none;
+	color: #e27d55;
+}

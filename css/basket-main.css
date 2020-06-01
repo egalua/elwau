@@ -1,0 +1,65 @@
+.basket-main{
+	height: 126px;
+	font-size: 0;
+	font-family: Arial, sans-serif;
+}
+.basket-main__container{
+	margin-top: 45px;
+	display: inline-block;
+	
+}
+.basket-main__basket-link{
+	display: block;
+	text-decoration: none;
+}
+.basket-main__basket-link:before{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.basket-main__main-link{
+	display: block;
+	text-decoration: none;
+	margin-top: 12px;
+}
+.basket-main__main-link:before{
+	content: "";
+	display: inine-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.basket-main__basket-icon{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	background: 50% 50% url("../ico/basket.png") no-repeat;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.basket-main__basket-sign{
+	display: inline-block;
+	font-size: 14px;
+	color: #727272;
+	vertical-align: middle;
+}
+.basket-main__main-icon{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background: 0 50% url("../ico/personal-area-icon.png") no-repeat;
+	vertical-align: middle;
+}
+.basket-main__main-icon_open{
+	background: -16px 50% url("../ico/personal-area-icon.png") no-repeat;
+}
+.basket-main__main-sign{
+	display: inline-block;
+	font-size: 14px;
+	color: #4f4f4f;
+	text-decoration: underline;
+	vertical-align: middle;
+	color: #da501a;
+}
