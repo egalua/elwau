@@ -37,6 +37,7 @@
 	color: #4f4f4f;
 	line-height: 24px;
 	vertical-align: middle;
+	background: transparent;
 }
 .search__submit{
 	background: lime;
@@ -50,12 +51,6 @@
 	vertical-align: bottom;
 	cursor: pointer;
 	outline: none;
-	
-}
-.search__submit_background{
 	background: 50% 50% url('../ico/search.png') no-repeat;
-	
 }
-.search__input-text_background{
-	background: transparent;
-}
+

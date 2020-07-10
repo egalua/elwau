@@ -11,8 +11,6 @@
 	vertical-align: middle;
 	text-decoration: none;
 	margin-left: 30px;
-}
-
-.logo__link_background{
 	background: 50% 50% url("../ico/logo.png") no-repeat;
 }
+

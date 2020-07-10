@@ -1,11 +1,11 @@
-.social-networks{
+.counters{
 	padding-top: 18px;
 	font-size: 0;
 }
-.social-networks___stub-box{
+.counters___box{
 	
 }
-.social-networks__stub-link, .social-networks__stub-link:visited, .social-networks__stub-link:active{
+.counters___stub-link, .counters___stub-link:visited, .counters___stub-link:active{
 	outline: none;
 	border: none;
 	display: inline-block;
@@ -14,6 +14,7 @@
 	height: 31px;
 	margin-right: 14px;
 }
-.social-networks__stub-link{
+
+.counters___stub-link{
 	background: 50% 50% url("../ico/stub.png") no-repeat;
 }
