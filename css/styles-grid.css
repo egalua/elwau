@@ -65,11 +65,10 @@ footer{
 
 
 /* ---- заглушка для адаптивного дизайна ---- */
-footer, header, .content{
+footer, header, .content, .wrapper{
 	min-width: 960px;
 }
 
-/*mobile first: стили по умолчанию для экранов меньших 320px*/
 @media screen and (min-width: 768px){
 	footer,header,.content{
 		max-width: 960px;
